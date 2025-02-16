@@ -1,5 +1,6 @@
-#include <iostream>
 #include "Diagrama_poo.cpp"
+#include <iostream>
+
 using namespace std;
 
 class Cliente : Persona{    // simbolo de la herencia son dos puntos
@@ -11,7 +12,7 @@ class Cliente : Persona{    // simbolo de la herencia son dos puntos
 	public :
 		cliente (){
 		}
-		cliente (string nom,string ape,string dir,int tel,string fn,string n) : Persona(nom,ape,dir,tel,fn,n){
+		Cliente(string nom,string ape,string dir,int tel,string fn,string n) : Persona(nom,ape,dir,tel,fn){
 			nit =n;
 		}
 		void leer(){
