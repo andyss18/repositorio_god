@@ -8,7 +8,7 @@ main(){
 	cout<<"ingrese nit: ";
 	cin>>nit;
 	cout<<"ingrese nombres: ";
-	cin>>nombres;
+	cin>>nombres; 
 	cout<<"ingrese apellidos: ";
 	cin>>apellidos;
 	cout<<"ingrese direccion: ";
